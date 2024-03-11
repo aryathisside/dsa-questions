@@ -24,7 +24,7 @@ int main()
             smallest = arr[i];
         }
 
-        else if (arr[i] != smallest && arr[i] < smallest)
+        else if (arr[i] != smallest && arr[i] < secondSmallest)
         {
             secondSmallest = arr[i];
         }
